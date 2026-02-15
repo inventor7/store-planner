@@ -154,7 +154,7 @@ const handleFacingsChange = (levelIndex: number, slotIndex: number, delta: numbe
                   >
                     <div
                       v-if="slot.productId"
-                      class="floor-pattern absolute inset-0 opacity-10 bg-[url('@/assets/checker-pattern.png')] bg-size-[10px_10px]"
+                      class="floor-pattern absolute inset-0 opacity-10 bg-size-[10px_10px]"
                     />
                     <div
                       v-else

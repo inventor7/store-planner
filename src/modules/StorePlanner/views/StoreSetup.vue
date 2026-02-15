@@ -137,7 +137,7 @@ const apiLayout = computed(() => {
 const apiFloors = computed(() => {
   if (!apiLayout.value) return [];
 
-  return apiLayout.value.floors?.map((floor) => {
+  return apiLayout.value.floors?.map((floor: any) => {
     if (floor.id === apiLayout.value.currentFloorId) {
       return {
         ...floor,

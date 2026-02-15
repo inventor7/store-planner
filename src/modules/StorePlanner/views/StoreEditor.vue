@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed, nextTick, watch } from "vue";
+import { ref, onMounted, onUnmounted, computed, nextTick, watch, onActivated } from "vue";
 import CreateFloorSheet from "../components/CreateFloorSheet.vue";
 
 import KonvaCanvas from "../components/Konva/KonvaCanvas.vue";
@@ -185,14 +185,10 @@ const initializeEditor = async () => {
     floorId: floorId.value,
   });
 
-  // Set readonly mode
   toolsStore.setReadonly(isReadonly.value);
 
-  // If we have a schemaId from query params, use data already loaded in store
   if (schemaId.value) {
-    // Data should already be loaded from StoreSetup, just switch to the floor
     if (currentLayout.value) {
-      // Switch to specific floor if provided
       if (floorId.value) {
         const floor = currentLayout.value.floors.find((f) => f.id === floorId.value);
         if (floor) {
@@ -202,15 +198,16 @@ const initializeEditor = async () => {
         }
       }
     } else {
-      // If layout is not in store (direct navigation), load from API
       try {
         await layoutStore.loadLayoutFromApi(schemaId.value);
 
-        // Switch to specific floor if provided
         if (floorId.value && currentLayout.value) {
-          const floor = currentLayout.value.floors.find((f) => f.id === floorId.value);
+          const layout: any = currentLayout.value;
+          const floor = layout.floors?.find((f: { id: string }) => f.id === floorId.value);
           if (floor) {
             layoutStore.switchFloor(floorId.value);
+          } else {
+            console.warn(`Floor ${floorId.value} not found, using current floor`);
           }
         }
       } catch (error) {
@@ -272,10 +269,8 @@ onMounted(async () => {
     }
   });
 });
-import { watch } from "vue";
 
 // Refresh data when component is activated (e.g., when navigating back to the tab)
-import { onActivated } from "vue";
 onActivated(async () => {
   if (props.partnerId) {
     await layoutStore.fetchPartnerLayouts(props.partnerId);
