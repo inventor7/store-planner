@@ -1,0 +1,349 @@
+{
+  "_today": {
+    "programmed": "Programme d'aujourd'hui",
+    "rejected": "Aujourd'hui rejeté",
+    "catchUp": "Aujourd'hui, rattrapage",
+    "anticipate": "Aujourd'hui prévu",
+    "close": "Fermer"
+  },
+  "storePlanner": {
+    "common": {
+      "apply": "Appliquer",
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "delete": "Supprimer",
+      "confirm": "Confirmer"
+    },
+    "units": {
+      "m": "m",
+      "cm": "cm",
+      "sqm": "m²"
+    },
+    "setup": {
+      "templates": {
+        "empty": {
+          "name": "Canevas vide",
+          "description": "Commencer à partir d'un canevas vide."
+        }
+      },
+      "defaultFloorName": "Étage 1",
+      "defaultStoreName": "Magasin {partner}",
+      "newStore": "Mon nouveau magasin",
+      "deleteLayoutConfirm": "Supprimer cette mise en page ? Cette action est irréversible.",
+      "deleteFloorConfirm": "Supprimer cet étage ? Cette action est irréversible.",
+      "addFloor": "Ajouter un étage",
+      "deleteFloor": "Supprimer l'étage",
+      "level": "Niveau {level}",
+      "openFloor": "Ouvrir l'étage",
+      "createNewStore": "Créer un nouveau magasin",
+      "openSchema": "Ouvrir le schéma",
+      "configureSubtitle": "Configurez les paramètres de votre magasin.",
+      "widthM": "Largeur (m)",
+      "heightM": "Hauteur (m)",
+      "surfaceArea": "Superficie",
+      "saveChanges": "Enregistrer les modifications",
+      "createStore": "Créer le magasin"
+    },
+    "editor": {
+      "noLayoutFound": "Aucune mise en page trouvée",
+      "createLayout": "Créer une mise en page",
+      "exitDialog": {
+        "title": "Quitter l'éditeur ?",
+        "message": "Êtes-vous sûr de vouloir quitter ? Vos modifications seront enregistrées automatiquement.",
+        "stay": "Rester",
+        "exit": "Quitter"
+      },
+      "clearDialog": {
+        "title": "Effacer l'étage actuel ?",
+        "message": "Êtes-vous sûr de vouloir effacer tous les éléments de l'étage actuel ? Cette action est irréversible.",
+        "cancel": "Annuler",
+        "confirm": "Tout effacer"
+      },
+      "closeFaceView": "Fermer la vue de face",
+      "toolbar": {
+        "aiAssistant": "Assistant IA",
+        "floors": "Étages",
+        "share": "Partager",
+        "exit": "Quitter",
+        "resetZoom": "Réinitialiser le zoom",
+        "addFixture": "Ajouter",
+        "undo": "Annuler",
+        "redo": "Rétablir",
+        "clearFloor": "Effacer l'étage",
+        "clearConfirmTitle": "Effacer l'étage actuel ?",
+        "clearConfirmMessage": "Cela supprimera tous les murs, équipements et points de cet étage. Cette action peut être annulée.",
+        "clearAll": "Tout effacer",
+        "aiScan": "Scan IA Magique",
+        "switchToSurvey": "Passer au relevé",
+        "switchToDesign": "Passer à la conception",
+        "design": "Conception",
+        "survey": "Relevé",
+        "back": "Retour",
+        "delete": "Supprimer",
+        "view": "Voir",
+        "copy": "Copier",
+        "placement": "Placement",
+        "ai": {
+          "title": "Construction en cours",
+          "steps": {
+            "geometry": "Analyse de la géométrie...",
+            "walls": "Détection des murs et ouvertures...",
+            "ocr": "Lecture des étiquettes (OCR)...",
+            "layout": "Optimisation de l'aménagement...",
+            "finalizing": "Finalisation du plan..."
+          }
+        },
+        "front": "Premier plan",
+        "backLayer": "Arrière-plan",
+        "corner": "Coin",
+        "drawWall": "Tracer un mur",
+        "cancelDrawing": "Annuler",
+        "doorWindow": "Porte/Fenêtre",
+        "floor": "Sol",
+        "merge": "Fusionner",
+        "duplicate": "Dupliquer",
+        "flipH": "Pivoter H",
+        "flipV": "Pivoter V",
+        "moveMouseCorner": "Déplacez votre souris sur le mur pour placer le coin d'abord.",
+        "noAdjacentAreas": "Aucune zone adjacente à fusionner",
+        "snapshotShared": "Capture partagée !",
+        "snapshotDownloaded": "Mise en page enregistrée et capture téléchargée !",
+        "snapshotFailed": "Mise en page enregistrée, mais la capture a échoué.",
+        "faceView": {
+          "range": "Gamme",
+          "skus": "SKUs",
+          "avgPrice": "Prix Moyen",
+          "expROI": "ROI Prévu",
+          "margin": "Marge",
+          "stock": "Stock",
+          "value": "Valeur",
+          "volShare": "Part de Vol.",
+          "me": "Moi",
+          "comp": "Conc."
+        }
+      },
+      "magicScan": {
+        "title": "Scanner de plan IA",
+        "description": "Prenez une photo de votre croquis dessiné à la main et laissez l'IA le convertir instantanément en plan numérique.",
+        "scanButton": "Scanner le croquis",
+        "cancel": "Annuler",
+        "scanFailed": "L'analyse IA a échoué. Veuillez réessayer plus tard.",
+        "scannedLayoutName": "Plan analysé par IA"
+      },
+      "floors": {
+        "createTitle": "Ajouter un nouvel étage",
+        "editTitle": "Modifier l'étage",
+        "nameLabel": "Nom de l'étage",
+        "levelLabel": "Niveau",
+        "defaultName": "Étage {level}",
+        "addLabel": "Ajouter un étage",
+        "levelExists": "Le niveau existe déjà",
+        "widthM": "Largeur (m)",
+        "heightM": "Hauteur (m)",
+        "cancel": "Annuler",
+        "create": "Créer",
+        "save": "Enregistrer",
+        "saveChanges": "Enregistrer les modifications",
+        "deleteFloor": "Supprimer l'étage",
+        "deleteConfirm": "Supprimer cet étage et tout son contenu ?"
+      },
+      "properties": {
+        "fixture": "Équipement",
+        "wall": "Mur",
+        "door": "Porte",
+        "window": "Fenêtre",
+        "wallNode": "Nœud de mur",
+        "width": "L (m)",
+        "depth": "P (m)",
+        "height": "H (m)",
+        "rows": "Rangées",
+        "areaSurface": "m²",
+        "dragLock": "Verrouiller le déplacement",
+        "sizeLock": "Verrouiller la taille",
+        "doorSwing": {
+          "left": "Battant gauche",
+          "right": "Battant droit",
+          "sliding": "Coulissant"
+        }
+      }
+    },
+    "library": {
+      "title": "Ajouter un élément",
+      "noItems": "Aucun élément trouvé",
+      "categories": {
+        "favorites": "Favoris",
+        "all": "Tous les éléments",
+        "myTemplates": "Mes modèles",
+        "shelves": "Étagères et rayons",
+        "fridges": "Frigos et rafraîchisseurs",
+        "checkout": "Caisse",
+        "structures": "Portes et fenêtres",
+        "furniture": "Meubles et présentoirs",
+        "zones": "Zones",
+        "floors": "Sols",
+        "areas": "Zones"
+      },
+      "items": {
+        "floors": {
+          "default": "Défaut (Béton)",
+          "tile-white": "Carrelage blanc",
+          "tile-checkered": "Carrelage en damier",
+          "wood-light": "Bois clair",
+          "wood-dark": "Bois sombre",
+          "marble": "Marbre",
+          "carpet-blue": "Moquette bleue"
+        },
+        "areas": {
+          "square": {
+            "name": "Carré",
+            "description": "Une simple zone à 4 côtés"
+          },
+          "l-shape": {
+            "name": "Forme en L",
+            "description": "Une zone en forme de L"
+          },
+          "t-shape": {
+            "name": "Forme en T",
+            "description": "Une zone en forme de T"
+          },
+          "u-shape": {
+            "name": "Forme en U",
+            "description": "Une zone en forme de U"
+          }
+        },
+        "fixtures": {
+          "shelf-bimbies": {
+            "name": "Étagère Bimbies",
+            "description": "Présentoir à couches Bimbies (60×38×195cm)"
+          },
+          "shelf-awane": {
+            "name": "Awane Bleu",
+            "description": "Présentoir Awane Bleu (60×38×195cm)"
+          },
+          "shelf-awane-2": {
+            "name": "Awane 2",
+            "description": "Variante présentoir Awane (60×38×195cm)"
+          },
+          "shelf-cotex": {
+            "name": "Alu Cook It",
+            "description": "Présentoir 6 étagères Alu Cook It (70×35×190cm)"
+          },
+          "shelf-gondola-small": {
+            "name": "Gondole Petite",
+            "description": "Rayonnage gondole à 4 niveaux"
+          },
+          "checkout-standard": {
+            "name": "Comptoir de caisse",
+            "description": "Caisse standard avec tapis roulant"
+          },
+          "fridge-upright-small": {
+            "name": "Petit frigo vertical",
+            "description": "Refroidisseur vertical à une porte"
+          },
+          "zone-floor-display": {
+            "name": "Zone d'exposition au sol",
+            "description": "Zone d'exposition de produits au sol"
+          },
+          "shelf-gondola-medium": {
+            "name": "Gondole Moyenne",
+            "description": "Rayonnage gondole à 5 niveaux"
+          },
+          "shelf-gondola-large": {
+            "name": "Grande Gondole",
+            "description": "Gondole double face à 5 niveaux"
+          },
+          "shelf-wall-small": {
+            "name": "Étagère murale petite",
+            "description": "Étagère murale à 3 niveaux"
+          },
+          "shelf-wall-medium": {
+            "name": "Étagère murale moyenne",
+            "description": "Étagère murale à 4 niveaux"
+          },
+          "shelf-endcap": {
+            "name": "Tête de gondole",
+            "description": "Présentoir promotionnel de bout d'allée"
+          },
+          "shelf-island": {
+            "name": "Ilot d'exposition",
+            "description": "Présentoir en îlot autoportant"
+          },
+          "fridge-upright-medium": {
+            "name": "Frigo vertical moyen",
+            "description": "Refroidisseur vertical à double porte"
+          },
+          "fridge-upright-large": {
+            "name": "Grand frigo vertical",
+            "description": "Refroidisseur vertical à triple porte"
+          },
+          "fridge-chest": {
+            "name": "Congélateur coffre",
+            "description": "Congélateur coffre horizontal"
+          },
+          "fridge-open-case": {
+            "name": "Vitrine ouverte",
+            "description": "Vitrine réfrigérée ouverte"
+          },
+          "fridge-deli": {
+            "name": "Comptoir traiteur",
+            "description": "Présentoir traiteur en verre courbe"
+          },
+          "checkout-express": {
+            "name": "Caisse express",
+            "description": "Caisse pour file express"
+          },
+          "checkout-self": {
+            "name": "Caisse libre-service",
+            "description": "Borne de caisse libre-service"
+          },
+          "checkout-service": {
+            "name": "Comptoir service",
+            "description": "Comptoir de service client"
+          },
+          "door": { "name": "Porte", "description": "Porte d'entrée standard" },
+          "door-sliding": {
+            "name": "Porte coulissante",
+            "description": "Entrée coulissante automatique"
+          },
+          "door-emergency": {
+            "name": "Sortie de secours",
+            "description": "Porte de sortie de secours"
+          },
+          "window": { "name": "Fenêtre", "description": "Fenêtre standard" },
+          "table-display": {
+            "name": "Table d'exposition",
+            "description": "Table d'exposition de produits"
+          },
+          "table-folding": {
+            "name": "Table pliante",
+            "description": "Table promotionnelle pliante"
+          },
+          "rack-clothing": {
+            "name": "Portant à vêtements",
+            "description": "Portant à vêtements circulaire"
+          },
+          "stand-promotional": {
+            "name": "Stand promo",
+            "description": "Présentoir promotionnel"
+          },
+          "basket-bin": {
+            "name": "Bac à fouille",
+            "description": "Grand panier promotionnel"
+          },
+          "cart-storage": {
+            "name": "Abri chariots",
+            "description": "Zone de stockage des chariots de course"
+          },
+          "zone-promotional": {
+            "name": "Zone promotionnelle",
+            "description": "Zone de produits promotionnels"
+          },
+          "zone-seasonal": {
+            "name": "Zone saisonnière",
+            "description": "Zone d'articles saisonniers"
+          }
+        }
+      }
+    }
+  }
+}

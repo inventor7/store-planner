@@ -1,0 +1,349 @@
+{
+  "_today": {
+    "programmed": "Today Program",
+    "rejected": "Today Rejected",
+    "catchUp": "Today Catchup",
+    "anticipate": "Today Anticipated",
+    "close": "Close"
+  },
+  "storePlanner": {
+    "common": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "confirm": "Confirm"
+    },
+    "units": {
+      "m": "m",
+      "cm": "cm",
+      "sqm": "m²"
+    },
+    "setup": {
+      "templates": {
+        "empty": {
+          "name": "Empty Canvas",
+          "description": "Start from scratch with a blank layout."
+        }
+      },
+      "defaultFloorName": "Floor 1",
+      "defaultStoreName": "{partner} Store",
+      "newStore": "My New Store",
+      "deleteLayoutConfirm": "Delete this layout? This cannot be undone.",
+      "deleteFloorConfirm": "Delete this floor? This cannot be undone.",
+      "addFloor": "Add Floor",
+      "deleteFloor": "Delete Floor",
+      "level": "Level {level}",
+      "openFloor": "Open Floor",
+      "createNewStore": "Create New Store",
+      "openSchema": "Open Schema",
+      "configureSubtitle": "Configure your store settings.",
+      "widthM": "Width (m)",
+      "heightM": "Height (m)",
+      "surfaceArea": "Surface Area",
+      "saveChanges": "Save Changes",
+      "createStore": "Create Store"
+    },
+    "editor": {
+      "noLayoutFound": "No Layout Found",
+      "createLayout": "Create Layout",
+      "exitDialog": {
+        "title": "Exit Editor?",
+        "message": "Are you sure you want to exit? Your changes will be saved automatically.",
+        "stay": "Stay",
+        "exit": "Exit"
+      },
+      "clearDialog": {
+        "title": "Clear Current Floor?",
+        "message": "Are you sure you want to clear all fixtures and elements from the current floor? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Clear All"
+      },
+      "closeFaceView": "Close Face View",
+      "toolbar": {
+        "aiAssistant": "AI Assistant",
+        "floors": "Floors",
+        "share": "Share",
+        "exit": "Exit",
+        "undo": "Undo",
+        "redo": "Redo",
+        "clearFloor": "Clear Floor",
+        "clearConfirmTitle": "Clear current floor?",
+        "clearConfirmMessage": "This will remove all walls, fixtures, and nodes from this floor. This action can be undone.",
+        "clearAll": "Clear All",
+        "aiScan": "Magic AI Scan",
+        "resetZoom": "Reset Zoom",
+        "addFixture": "Add",
+        "switchToSurvey": "Switch to Survey",
+        "switchToDesign": "Switch to Design",
+        "design": "Design",
+        "survey": "Survey",
+        "back": "Back",
+        "delete": "Delete",
+        "view": "View",
+        "copy": "Copy",
+        "placement": "Placement",
+        "ai": {
+          "title": "Construction in Progress",
+          "steps": {
+            "geometry": "Analyzing Geometry...",
+            "walls": "Detecting Walls & Openings...",
+            "ocr": "Reading Labels (OCR)...",
+            "layout": "Optimizing Fixture Layout...",
+            "finalizing": "Finalizing Plan..."
+          }
+        },
+        "front": "Front",
+        "backLayer": "Back",
+        "corner": "Corner",
+        "drawWall": "Draw Wall",
+        "cancelDrawing": "Cancel",
+        "doorWindow": "Door/Window",
+        "floor": "Floor",
+        "merge": "Merge",
+        "duplicate": "Duplicate",
+        "flipH": "Flip H",
+        "flipV": "Flip V",
+        "moveMouseCorner": "Move your mouse over the wall to place the corner first.",
+        "noAdjacentAreas": "No adjacent areas to merge",
+        "snapshotShared": "Snapshot shared!",
+        "snapshotDownloaded": "Layout saved & snapshot downloaded!",
+        "snapshotFailed": "Layout saved, but snapshot failed.",
+        "faceView": {
+          "range": "Range",
+          "skus": "SKUs",
+          "avgPrice": "Avg. Price",
+          "expROI": "Exp. ROI",
+          "margin": "Margin",
+          "stock": "Stock",
+          "value": "Value",
+          "volShare": "Vol. Share",
+          "me": "Me",
+          "comp": "Comp"
+        }
+      },
+      "magicScan": {
+        "title": "AI Plan Scanner",
+        "description": "Take a photo of your hand-drawn sketch and let AI convert it into a digital plan instantly.",
+        "scanButton": "Scan Sketch",
+        "cancel": "Cancel",
+        "scanFailed": "AI Scan failed. Please try again later.",
+        "scannedLayoutName": "AI Scanned Layout"
+      },
+      "floors": {
+        "createTitle": "Add New Floor",
+        "editTitle": "Edit Floor",
+        "nameLabel": "Floor Name",
+        "levelLabel": "Level",
+        "defaultName": "Floor {level}",
+        "addLabel": "Add Floor",
+        "levelExists": "Level already exists",
+        "widthM": "Width (m)",
+        "heightM": "Height (m)",
+        "cancel": "Cancel",
+        "create": "Create",
+        "save": "Save",
+        "saveChanges": "Save Changes",
+        "deleteFloor": "Delete Floor",
+        "deleteConfirm": "Delete this floor and all its contents?"
+      },
+      "properties": {
+        "fixture": "Fixture",
+        "wall": "Wall",
+        "door": "Door",
+        "window": "Window",
+        "wallNode": "Wall Node",
+        "width": "W (m)",
+        "depth": "D (m)",
+        "height": "H (m)",
+        "rows": "Rows",
+        "areaSurface": "m²",
+        "dragLock": "Toggle Drag Lock",
+        "sizeLock": "Toggle Size Lock",
+        "doorSwing": {
+          "left": "Left Swing",
+          "right": "Right Swing",
+          "sliding": "Sliding"
+        }
+      }
+    },
+    "library": {
+      "title": "Add an item",
+      "noItems": "No items found",
+      "categories": {
+        "favorites": "Favorites",
+        "all": "All Items",
+        "myTemplates": "My Templates",
+        "shelves": "Shelves & Racks",
+        "fridges": "Fridges & Coolers",
+        "checkout": "Checkout",
+        "structures": "Doors & Windows",
+        "furniture": "Furniture & Displays",
+        "zones": "Zones",
+        "floors": "Floors",
+        "areas": "Areas"
+      },
+      "items": {
+        "floors": {
+          "default": "Default (Concrete)",
+          "tile-white": "White Tile",
+          "tile-checkered": "Checkered Tile",
+          "wood-light": "Light Wood",
+          "wood-dark": "Dark Wood",
+          "marble": "Marble",
+          "carpet-blue": "Blue Carpet"
+        },
+        "areas": {
+          "square": {
+            "name": "Square",
+            "description": "A simple 4-sided area"
+          },
+          "l-shape": {
+            "name": "L Shape",
+            "description": "An L-shaped area"
+          },
+          "t-shape": {
+            "name": "T Shape",
+            "description": "A T-shaped area"
+          },
+          "u-shape": {
+            "name": "U Shape",
+            "description": "A U-shaped area"
+          }
+        },
+        "fixtures": {
+          "shelf-bimbies": {
+            "name": "Bimbies Shelf",
+            "description": "Bimbies diaper display shelf (60×38×195cm)"
+          },
+          "shelf-awane": {
+            "name": "Awane Bleu",
+            "description": "Awane Bleu display shelf (60×38×195cm)"
+          },
+          "shelf-awane-2": {
+            "name": "Awane 2",
+            "description": "Awane display shelf variant (60×38×195cm)"
+          },
+          "shelf-cotex": {
+            "name": "Alu Cook It",
+            "description": "Alu Cook It 6-shelf display (70×35×190cm)"
+          },
+          "shelf-gondola-small": {
+            "name": "Gondola Shelf Small",
+            "description": "4-tier gondola shelving unit"
+          },
+          "checkout-standard": {
+            "name": "Checkout Counter",
+            "description": "Standard checkout with conveyor"
+          },
+          "fridge-upright-small": {
+            "name": "Upright Fridge Small",
+            "description": "Single door vertical cooler"
+          },
+          "zone-floor-display": {
+            "name": "Floor Display Zone",
+            "description": "Floor product display area"
+          },
+          "shelf-gondola-medium": {
+            "name": "Gondola Shelf Medium",
+            "description": "5-tier gondola shelving unit"
+          },
+          "shelf-gondola-large": {
+            "name": "Gondola Shelf Large",
+            "description": "5-tier double-sided gondola"
+          },
+          "shelf-wall-small": {
+            "name": "Wall Shelf Small",
+            "description": "Wall-mounted 3-tier shelf"
+          },
+          "shelf-wall-medium": {
+            "name": "Wall Shelf Medium",
+            "description": "Wall-mounted 4-tier shelf"
+          },
+          "shelf-endcap": {
+            "name": "Endcap Display",
+            "description": "End of aisle promotional display"
+          },
+          "shelf-island": {
+            "name": "Island Display",
+            "description": "Freestanding island display"
+          },
+          "fridge-upright-medium": {
+            "name": "Upright Fridge Medium",
+            "description": "Double door vertical cooler"
+          },
+          "fridge-upright-large": {
+            "name": "Upright Fridge Large",
+            "description": "Triple door vertical cooler"
+          },
+          "fridge-chest": {
+            "name": "Chest Freezer",
+            "description": "Horizontal chest freezer"
+          },
+          "fridge-open-case": {
+            "name": "Open Display Case",
+            "description": "Open refrigerated display case"
+          },
+          "fridge-deli": {
+            "name": "Deli Counter",
+            "description": "Curved glass deli display"
+          },
+          "checkout-express": {
+            "name": "Express Checkout",
+            "description": "Express lane checkout"
+          },
+          "checkout-self": {
+            "name": "Self Checkout",
+            "description": "Self-service checkout kiosk"
+          },
+          "checkout-service": {
+            "name": "Service Counter",
+            "description": "Customer service counter"
+          },
+          "door": { "name": "Door", "description": "Standard entrance door" },
+          "door-sliding": {
+            "name": "Sliding Door",
+            "description": "Automatic sliding entrance"
+          },
+          "door-emergency": {
+            "name": "Emergency Exit",
+            "description": "Emergency exit door"
+          },
+          "window": { "name": "Window", "description": "Standard window" },
+          "table-display": {
+            "name": "Display Table",
+            "description": "Product display table"
+          },
+          "table-folding": {
+            "name": "Folding Table",
+            "description": "Folding promotional table"
+          },
+          "rack-clothing": {
+            "name": "Clothing Rack",
+            "description": "Circular clothing rack"
+          },
+          "stand-promotional": {
+            "name": "Promo Stand",
+            "description": "Promotional display stand"
+          },
+          "basket-bin": {
+            "name": "Basket Bin",
+            "description": "Large promotional basket"
+          },
+          "cart-storage": {
+            "name": "Cart Storage",
+            "description": "Shopping cart storage area"
+          },
+          "zone-promotional": {
+            "name": "Promotional Zone",
+            "description": "Promotional product zone"
+          },
+          "zone-seasonal": {
+            "name": "Seasonal Zone",
+            "description": "Seasonal items area"
+          }
+        }
+      }
+    }
+  }
+}
